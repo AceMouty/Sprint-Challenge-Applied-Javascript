@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
    
-	 The DOM is `an API for HTML and XML documents`, every element in page is actually a `DOM node`. The DOM represents the page structure and developers can change the structure,style and content on a page using JavaScript. The DOM gets its default structure from the HTML or XML pages the browser recieves but can be drastically changed from its original state using a client side scripting language such as JavaScript. You can view the DOM by accessing your browsers dev tools. Most people think this is the HTML when infact it's not, this is a visual representation of the current state of the DOM. With dev tools open you can view live changes happening to the DOM when interacting with the page.
+	 The DOM is `an API for HTML and XML documents`, every element in page is actually a `DOM node`. The DOM represents the page structure and developers can change the structure,style and content on a page using JavaScript. The DOM gets its default structure from the HTML or XML pages the browser recieves but can be drastically changed from its original state using a client side scripting language such as JavaScript. You can view the DOM by accessing your browsers dev tools. Most people think this is the source HTML when infact it's not, this is a visual representation of the current state of the DOM. With dev tools open you can view live changes happening to the DOM when interacting with the page.
 
 2. What is an event?
 
@@ -44,11 +44,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Why would we convert a NodeList into an Array?
 
-	 NodeList look like arrays with their syntax however this data type only has access to one array like method, the `forEach` method. If you want to have accesss to the rest of all the array methods you have to use `Array.from()`. 
+	 NodeList look like arrays with their syntax and structure however this data type only has access to one array like method, the `forEach` method. If you want to have accesss to the rest of all the array methods you have to use `Array.from()`. 
 
 5. What is a component?
 	 
-	 A `component` is a samller part or an element of a larger whole. Components are single modular pieces of reuseable code that can be used like legos to build a big end product that has a bunch of little pieces to it. Componets can stand on their own, all you need to do is pass data to it and it will build out an entire lego piece for you. Components are mad up of JS, HTML and CSS.
+	 A `component` is a samller part or an element of a larger whole. Components are single modular pieces of reuseable code that can be used like legos to build a big end product that has a bunch of little pieces to it. Componets can stand on their own, all you need to do is pass data to it and it will build out an entire lego piece for you. Components are made up of JS, HTML and CSS.
 
 ### Git Set up
 
