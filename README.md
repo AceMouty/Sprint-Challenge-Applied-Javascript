@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
    
-	 The DOM is `an API for HTML and XML documents`, every element in page is actually a `DOM node`. The DOM represents the page structure and developers can change the structure, style and content on a page using JavaScript. The DOM gets its default structure from the HTML or XML pages it recieves but can be drastically changed from its original state using a client side scripting language such as JavaScript. You can view the DOM by accessing your browsers dev tools. Most people think this is the HTML when infact it's not, this is a visual representation of the current state of the DOM. With dev tools open you can view live changes happening to the DOM when interacting with the page.
+	 The DOM is `an API for HTML and XML documents`, every element in page is actually a `DOM node`. The DOM represents the page structure and developers can change the structure,style and content on a page using JavaScript. The DOM gets its default structure from the HTML or XML pages the browser recieves but can be drastically changed from its original state using a client side scripting language such as JavaScript. You can view the DOM by accessing your browsers dev tools. Most people think this is the HTML when infact it's not, this is a visual representation of the current state of the DOM. With dev tools open you can view live changes happening to the DOM when interacting with the page.
 
 2. What is an event?
 
