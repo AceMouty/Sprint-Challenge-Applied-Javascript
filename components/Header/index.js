@@ -31,4 +31,9 @@ function Header() {
 	header.appendChild(date);
 	header.appendChild(h1);
 	header.appendChild(temp);
+
+	return header;
 }
+
+const headerContainer = document.querySelector('.header-container');
+headerContainer.appendChild(Header());
