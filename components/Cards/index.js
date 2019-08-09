@@ -60,18 +60,6 @@ function createCard(obj) {
 	image.setAttribute('src', `${obj.authorPhoto}`);
 	authorName.textContent = `By ${obj.authorName}`;
 
-
-
-	// <div class="card">
-	//   <div class="headline">{Headline of article}</div>
-	//   <div class="author">
-	//     <div class="img-container">
-	//       <img src={url of authors image} />
-	//     </div>
-	//     <span>By {authors name}</span>
-	//   </div>
-	// </div>
-
 	// Create HTML Structure
 	card.appendChild(cardHeadline);
 	card.appendChild(cardAuthor);
